@@ -1,6 +1,6 @@
 FROM alpine:3.19.1
 LABEL maintainer="JulianPrieber"
-LABEL description="LinkStack Docker"
+LABEL description="LinkSign Docker"
 
 EXPOSE 80 443
 
