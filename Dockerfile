@@ -38,7 +38,7 @@ RUN apk --no-cache --update \
     tzdata \
     && mkdir /htdocs
 
-COPY linkSign /htdocs
+COPY linksign /htdocs
 COPY configs/apache2/httpd.conf /etc/apache2/httpd.conf
 COPY configs/apache2/ssl.conf /etc/apache2/conf.d/ssl.conf
 COPY configs/php/php.ini /etc/php8.2/php.ini
