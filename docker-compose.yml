@@ -2,8 +2,8 @@ version: "3.8"
 
 services:
   linkstack:
-    hostname: 'linkstack'
-    image: 'linkstackorg/linkstack:latest'
+    hostname: 'linksign'
+    image: 'acrisign/linksign:latest'
     environment:
       TZ: 'Europe/Berlin'
       SERVER_ADMIN: 'admin@example.com'
