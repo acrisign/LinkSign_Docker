@@ -3,9 +3,9 @@ version: "3.8"
 services:
   linkstack:
     hostname: 'linksign'
-    image: 'acrisign/LinkSign:latest'
+    image: 'acrisign/linksign:latest'
     environment:
-      TZ: 'Europe/Berlin'
+      TZ: 'America/Sao_Paulo'
       SERVER_ADMIN: 'admin@example.com'
       HTTP_SERVER_NAME: 'example.com'
       HTTPS_SERVER_NAME: 'example.com'
