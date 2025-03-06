@@ -3,7 +3,7 @@ version: "3.8"
 services:
   linkstack:
     hostname: 'linksign'
-    image: 'acrisign/linksign:latest'
+    image: 'acrisign/LinkSign:latest'
     environment:
       TZ: 'Europe/Berlin'
       SERVER_ADMIN: 'admin@example.com'
